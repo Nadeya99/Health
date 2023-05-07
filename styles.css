@@ -168,24 +168,24 @@ a {
 .third {
     display: flex;
     background-color: #004F1B;
-    min-height: 750px;
+    min-height: 600px;
+    padding: 30px 34px 30px 34px;
 }
 
 .text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 85px;
+    font-size: 80px;
     color: #FFE2A9;
-    margin-top: 315px;
-    margin-left: 34px;
-    margin-bottom: 30px;
+    margin-top: 338px;
     text-align: left;
+    margin-right: 150px;
 }
 
 .flower {
-    width: 487px;
-    height: 692px;
-    margin: 30px 34px 30px 330px;
+    width: 527px;
+    height: 727px;
+    margin-left: 100px;
     border-radius: 150px 0px;
 }
