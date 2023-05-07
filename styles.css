@@ -1,0 +1,201 @@
+@import 'animdrop.css';
+@import 'fadeInUp.css';
+
+.first {
+    background-image: url(img/Property\ 1=sunny.png);
+    min-height: 883px;
+    width: 1250px;
+}
+
+header {
+    width: inherit;
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(180deg, #FFFFFF 15.25%, rgba(255, 255, 255, 0) 100%);
+    height: 90px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #003111;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.era {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    color: #004F1B;
+    text-align: center;
+    margin: 190px 130px 0 130px;
+}
+
+.ki {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #003111;
+    margin: 64px 85px 0 85px;
+}
+
+.join {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 168px;
+    height: 45px;
+    background: #004F1B;
+    border-radius: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 184px;
+}
+
+.join:hover {
+    background: #003111;
+}
+
+.space {
+    height: 200px;
+}
+
+.second {
+    height: auto;
+    background-color: #FFE2A9;
+    padding: 64px;
+}
+
+.warn {
+    display: flex;
+}
+
+.warn img {
+    width: 42px;
+    height: 42px;
+}
+
+.diabet {
+    width: 250px;
+    margin-right: 90px;
+}
+
+.descr {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #003111;
+}
+
+.undia {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    color: #004F1B;
+    margin-top: 215px;
+    line-height: 116.02%;
+}
+
+.ind {
+    display: flex;
+    justify-content: inherit;
+}
+
+.drops {
+    display: flex;
+    padding-left: 30px;
+}
+
+.drops .fdr {
+    display: block;
+    margin-right: 25px;
+    height: 235px;
+    width: 140px;
+    margin-top: 143px;
+    transform: scale(2);
+
+}
+
+/* .drops .fdr_animated {
+    animation-name: droppic1;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+} */
+
+.drops .secdr {
+    display: block;
+    height: 235px;
+    width: 140px;
+    margin-top: 78px;
+    margin-left: 20px;
+    margin-right: 25px;
+    transform: scale(2)
+}
+
+.drops .thdr {
+    display: block;
+    height: 235px;
+    width: 140px;
+    margin-left: 20px;
+    margin-top: 143px;
+    transform: scale(2)
+}
+
+.fdr_animated,
+.secdr_animated,
+.thdr_animated {
+    animation-name: droppic1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-fill-mode: forwards;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+
+}
+
+.third {
+    display: flex;
+    background-color: #E4FFEF;
+}
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    color: #004F1B;
+    text-align: center;
+    margin-top: 187px;
+}
+
+.flower {
+    width: 287px;
+    height: 492px;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-right: 23px;
+    margin-bottom: 20px;
+}
