@@ -186,5 +186,6 @@ a {
 .flower {
     width: 487px;
     height: 692px;
-    margin: 250px 10px 10px 330px;
+    margin: 220px 10px 10px 330px;
+    border-radius: 150px 0px;
 }
