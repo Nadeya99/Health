@@ -36,7 +36,7 @@ a {
     font-size: 100px;
     color: #004F1B;
     text-align: center;
-    margin: 210px 130px 0 130px;
+    margin: 150px 130px 0 130px;
 }
 
 .ki {
@@ -46,7 +46,7 @@ a {
     font-size: 20px;
     text-align: center;
     color: #003111;
-    margin: 64px 85px 0 85px;
+    margin: 50px 85px 0 85px;
 }
 
 .join {
@@ -63,7 +63,7 @@ a {
     border-radius: 16px;
     margin: 0 auto;
     cursor: pointer;
-    margin-top: 84px;
+    margin-top: 60px;
     box-shadow: none;
     border: none;
 }
@@ -108,9 +108,9 @@ a {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 85px;
+    font-size: 95px;
     color: #004F1B;
-    margin-top: 235px;
+    margin-top: 205px;
     line-height: 116.02%;
 }
 
@@ -121,7 +121,7 @@ a {
 
 .drops {
     display: flex;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .drops .fdr {
@@ -129,7 +129,7 @@ a {
     margin-right: 25px;
     height: 235px;
     width: 140px;
-    margin-top: 143px;
+    margin-top: 73px;
     transform: scale(2);
 
 }
@@ -139,7 +139,7 @@ a {
     display: block;
     height: 235px;
     width: 140px;
-    margin: 78px 25px 0 20px;
+    margin: 8px 25px 0 20px;
     transform: scale(2)
 }
 
@@ -148,7 +148,7 @@ a {
     height: 235px;
     width: 140px;
     margin-left: 20px;
-    margin-top: 143px;
+    margin-top: 73px;
     transform: scale(2)
 }
 
@@ -174,14 +174,17 @@ a {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 88px;
+    font-size: 108px;
     color: #FFE2A9;
     text-align: center;
-    margin-top: 237px;
+    margin-top: 437px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .flower {
     width: 487px;
     height: 692px;
-    margin: 30px 23px 20px 45px;
+    margin: 250px 10px 10px 330px;
 }
