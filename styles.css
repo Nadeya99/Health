@@ -175,17 +175,16 @@ a {
 .text {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 80px;
+    font-weight: 300;
+    font-size: 65px;
     color: #FFE2A9;
-    margin-top: 338px;
+    margin-top: 434px;
     text-align: left;
-    margin-right: 150px;
 }
 
 .flower {
     width: 527px;
-    height: 727px;
-    margin-left: 100px;
+    height: 747px;
+    margin-left: 374px;
     border-radius: 150px 0px;
 }
