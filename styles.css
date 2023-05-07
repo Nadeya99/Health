@@ -16,7 +16,7 @@ header {
     background: linear-gradient(180deg, #FFFFFF 15.25%, rgba(255, 255, 255, 0) 100%);
     height: 90px;
     width: 100%;
-    padding-left: 790px;
+    padding-left: 950px;
 }
 
 a {
@@ -65,6 +65,7 @@ a {
     cursor: pointer;
     margin-top: 84px;
     box-shadow: none;
+    border: none;
 }
 
 .join:hover {
@@ -133,21 +134,12 @@ a {
 
 }
 
-/* .drops .fdr_animated {
-    animation-name: droppic1;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
-} */
 
 .drops .secdr {
     display: block;
     height: 235px;
     width: 140px;
-    margin-top: 78px;
-    margin-left: 20px;
-    margin-right: 25px;
+    margin: 78px 25px 0 20px;
     transform: scale(2)
 }
 
@@ -167,7 +159,6 @@ a {
     animation-duration: 4s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    /* animation-direction: alternate; */
     animation-fill-mode: forwards;
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
@@ -183,17 +174,14 @@ a {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 68px;
+    font-size: 88px;
     color: #FFE2A9;
     text-align: center;
-    margin-top: 187px;
+    margin-top: 237px;
 }
 
 .flower {
     width: 487px;
     height: 692px;
-    margin-left: 45px;
-    margin-top: 30px;
-    margin-right: 23px;
-    margin-bottom: 20px;
+    margin: 30px 23px 20px 45px;
 }
