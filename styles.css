@@ -4,22 +4,19 @@
 .first {
     background-image: url(img/Property\ 1=sunny.png);
     min-height: 883px;
-    width: 1250px;
+    /* width: 1250px; */
 }
 
 header {
-    width: inherit;
+    display: flex;
+    justify-content: space-between;
     padding-top: 30px;
     position: fixed;
     top: 0;
     background: linear-gradient(180deg, #FFFFFF 15.25%, rgba(255, 255, 255, 0) 100%);
     height: 90px;
-}
-
-ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
+    width: 100%;
+    padding-left: 790px;
 }
 
 a {
@@ -39,7 +36,7 @@ a {
     font-size: 100px;
     color: #004F1B;
     text-align: center;
-    margin: 190px 130px 0 130px;
+    margin: 210px 130px 0 130px;
 }
 
 .ki {
@@ -66,7 +63,8 @@ a {
     border-radius: 16px;
     margin: 0 auto;
     cursor: pointer;
-    margin-top: 184px;
+    margin-top: 84px;
+    box-shadow: none;
 }
 
 .join:hover {
@@ -111,7 +109,7 @@ a {
     font-weight: 400;
     font-size: 85px;
     color: #004F1B;
-    margin-top: 215px;
+    margin-top: 235px;
     line-height: 116.02%;
 }
 
@@ -178,7 +176,7 @@ a {
 
 .third {
     display: flex;
-    background-color: #E4FFEF;
+    background-color: #004F1B;
 }
 
 .text {
@@ -186,14 +184,14 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 68px;
-    color: #004F1B;
+    color: #FFE2A9;
     text-align: center;
     margin-top: 187px;
 }
 
 .flower {
-    width: 287px;
-    height: 492px;
+    width: 487px;
+    height: 692px;
     margin-left: 45px;
     margin-top: 30px;
     margin-right: 23px;
