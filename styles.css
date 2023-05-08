@@ -4,7 +4,6 @@
 .first {
     background-image: url(img/Property\ 1=sunny.png);
     min-height: 883px;
-    /* width: 1250px; */
 }
 
 header {
@@ -116,12 +115,12 @@ a {
 
 .ind {
     display: flex;
-    justify-content: inherit;
+    /* justify-content: inherit; */
 }
 
 .drops {
     display: flex;
-    padding-left: 10px;
+    margin-left: 33px;
 }
 
 .drops .fdr {
@@ -168,23 +167,26 @@ a {
 .third {
     display: flex;
     background-color: #004F1B;
-    min-height: 600px;
-    padding: 30px 34px 30px 34px;
+    height: auto;
+    padding: 44px 64px 44px 64px;
 }
 
 .text {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 300;
-    font-size: 65px;
+    font-weight: 400;
+    font-size: 88px;
     color: #FFE2A9;
-    margin-top: 434px;
+    margin-top: 400px;
     text-align: left;
+    line-height: 102.1px;
+    letter-spacing: -0.025em;
+    width: 837px;
+    height: 306px;
 }
 
 .flower {
-    width: 527px;
-    height: 747px;
-    margin-left: 374px;
+    width: 587px;
+    height: 792px;
     border-radius: 150px 0px;
 }
